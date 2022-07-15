@@ -1,0 +1,117 @@
+:root{
+    
+    --viridiangreen: #119DA4;
+    --darkpurple: #0F0326;
+    --accentcolor:  hsl(248, 31%, 81%);
+    --maroon: maroon;
+    --width: 25px;
+    --height: 25px;
+    --rad: 10px;
+    --navWidth: 20%;
+    --navHeight: 1.4cm;
+    --bg-color: #F4F4F5;
+    --fontAmatic: 'Amatic SC', cursive;
+    --fontSignika: 'Signika', sans-serif;
+}
+body{
+    margin: auto;
+}
+nav h1{
+    color: var(--viridiangreen);
+    position: relative;
+    top: 1.5cm;
+    padding: 10px 15px;
+    font-size: xx-large;
+}
+nav .btn{
+    position: relative;
+    border: none;
+    float: right;
+    right: 1.2cm;
+    bottom: 0.3in;
+    width: 95px;
+    height: 38px;
+    border-radius: 9px;
+    display: block;
+    place-items: center;
+    text-decoration: none;
+    border: none;
+    color: var(--spacecadet);
+}
+#dot{
+    color: var(--maroon);
+}
+main{
+    position: relative;
+    left: 3%;
+    display: grid;
+    place-items: center;
+    position: relative;
+    top: 0.5in;
+}
+h1{
+    font-family: var(--fontAmatic);
+    letter-spacing: 3px;
+}
+p{
+    letter-spacing: 0cm;
+    font-size: xx-large;
+    font-family: var(--fontAmatic);
+}
+.abtMe{
+    text-align: center;
+}
+
+.navigation{
+    background-image: url("https://fontawesome.com/images/pro-upgrade-bg.svg");
+    width: var(--navWidth);
+    height: var(--navHeight);
+    border-radius: var(--rad);
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    padding: 6px 11px;
+    box-shadow: 5px 5px 10px 7px var(--bg-color);
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    background: var(--bg-color);
+    display: grid;
+    place-items: center;
+}
+i{
+    color: var(--viridiangreen);
+}
+.icon:hover{
+    background: var(--viridiangreen);
+}
+i:hover{
+    color: white;
+}
+section{
+    width: 65%;
+    height: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 7px var(--bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 10px;
+}
+.sk{
+    padding: 20px 20px;
+}
+meter{
+    width: 250px;
+    height: 20px;
+    position: relative;
+    left: 1cm;
+    color: var(--viridiangreen);
+}
+section > div > .fa-brands:hover{
+    color: var(--viridiangreen);
+}
+
